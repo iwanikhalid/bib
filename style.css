@@ -21,7 +21,14 @@ body { font: normal normal 400 14px/normal 'Open Sans', Helvetica, sans-serif; c
 	.cartSnip a.items b { vertical-align: middle;  padding-right: 20px; width: 16px; height: 16px; display: inline-block; background: url(img/icons.png) no-repeat; }
 #nav { }
 #banner { background: #7abb61; /* Old browsers */ background: -moz-linear-gradient(top, #7abb61 0%, #3d9540 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abb61), color-stop(100%,#3d9540)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(top, #7abb61 0%,#3d9540 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(top, #7abb61 0%,#3d9540 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(top, #7abb61 0%,#3d9540 100%); /* IE10+ */ background: linear-gradient(to bottom, #7abb61 0%,#3d9540 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abb61', endColorstr='#3d9540',GradientType=0 ); /* IE6-9 */ min-height: 15px; height: auto !important; height: 15px; }
-#content { min-height: 100px; height: auto !important; height: 100px;  }
+#content { padding: 20px 0; background: #f0f0f0; min-height: 100px; height: auto !important; height: 100px;  }
+	.section-title { text-transform: uppercase; }
+	.more-link, .more-link:hover { margin: 0 0 15px; font-size: 13px; padding: 4px 10px; color: #fff; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; display: inline-block; background: #d42a31; /* Old browsers */ background: -moz-linear-gradient(top, #d42a31 0%, #ad0a11 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d42a31), color-stop(100%,#ad0a11)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(top, #d42a31 0%,#ad0a11 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(top, #d42a31 0%,#ad0a11 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(top, #d42a31 0%,#ad0a11 100%); /* IE10+ */ background: linear-gradient(to bottom, #d42a31 0%,#ad0a11 100%); /* W3C */ mfilter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d42a31', endColorstr='#ad0a11',GradientType=0 ); /* IE6-9 */ }
+	#stores { padding: 10px; margin: 0 0 30px; background: #fff; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;  -moz-box-shadow: 3px 3px 3px #ccc; -webkit-box-shadow: 3px 3px 3px #cc; box-shadow: 3px 3px 3px #ccc; }
+	#stores img { vertical-align: middle; }
+	#testimonial .floatl { width: 475px; background: url(img/bgquote.png) no-repeat left top; }
+	#testimonial .floatl p { padding: 30px 20px 20px; }
+	
 #footer  { padding: 20px 0; background: url(img/footer.gif) repeat-x;  }
 	#footer ul { font-size: 12px; margin: 10px 65px 20px 30px; color: #fff; }
 	#footer ul a { color: #fff; }
