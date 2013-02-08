@@ -21,6 +21,7 @@ body { font: normal normal 400 14px/normal 'Open Sans', Helvetica, sans-serif; c
 	.cartSnip a.items b { vertical-align: middle;  padding-right: 20px; width: 16px; height: 16px; display: inline-block; background: url(img/icons.png) no-repeat; }
 #nav { }
 #banner { padding: 20px 0; background: #7abb61; /* Old browsers */ background: -moz-linear-gradient(top, #7abb61 0%, #3d9540 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abb61), color-stop(100%,#3d9540)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(top, #7abb61 0%,#3d9540 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(top, #7abb61 0%,#3d9540 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(top, #7abb61 0%,#3d9540 100%); /* IE10+ */ background: linear-gradient(to bottom, #7abb61 0%,#3d9540 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abb61', endColorstr='#3d9540',GradientType=0 ); /* IE6-9 */ min-height: 15px; height: auto !important; height: 15px; }
+	#banner.inside { padding: 0; }
 	#banner .layout { width: 956px; height: 509px; background: url(img/front-form.png) no-repeat; }
 	#banner .form-col { float: left; }
 	#banner .form-col.col1 { padding: 81px 0 0 26px; width: 222px; }
