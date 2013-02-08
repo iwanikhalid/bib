@@ -34,6 +34,11 @@ body { font: normal normal 400 14px/normal 'Open Sans', Helvetica, sans-serif; c
 		#banner .form-col.col2 input[type=submit]{ -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; width: 300px; padding: 10px; border: 0; font-size: 1.3em; margin: 10px 0; }
 	#banner .form-col.col3 { padding: 81px 0 0 11px; width: 299px; }
 		#banner .form-col.col3 h3 { color: #9be481; }
+		#banner .form-col.col3 li { position: relative; background: url(img/steps2-bg.png) no-repeat; height: 64px; margin: 0 0 5px; }
+		#banner .form-col.col3 li:last-child { height: 45px; }
+		#banner .form-col.col3 b, #banner .form-col.col3 p { position: absolute; }
+		#banner .form-col.col3 b { color: #fff; font-size: 2em; left: 11px; }
+		#banner .form-col.col3 p  { color: #9be481; width: 220px; top: 2px; left: 50px; }
 	
 #content { padding: 20px 0; background: #f0f0f0; min-height: 100px; height: auto !important; height: 100px;  }
 	.section-title { text-transform: uppercase; }
