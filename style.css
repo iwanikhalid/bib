@@ -27,8 +27,8 @@ body { font: normal normal 400 14px/normal 'Open Sans', Helvetica, sans-serif; c
 		#banner .form-col.col1 h3 { color: #6b6c71; }			
 		#banner .form-col.col1 li { position: relative; font-size: 13px; color: #9be481; height: 100px; margin: 0 0 5px; }
 		#banner .form-col.col1 b, #banner .form-col.col1 p { position: absolute; }
-		#banner .form-col.col1 b { top: -13px; font-size: 5em; color: #5bb95b; }	
-		#banner .form-col.col1 p { top: 4px; left: 50px; width: 150px; }
+		#banner .form-col.col1 b { top: -7px; font-size: 5em; color: #5bb95b; }	
+		#banner .form-col.col1 p { top: 10px; left: 50px; width: 150px; }
 		#banner .form-col.col1 span { font-weight: bold; font-size: 14px; }
 		#banner .form-col.col1 li:first-child { color: #777474; }
 		#banner .form-col.col1 li:first-child span { color: #000; }
