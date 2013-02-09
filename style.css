@@ -181,6 +181,8 @@ form input[type=radio] { vertical-align: middle; }
 
 /*************** Cart Process */
 .itemAdded { margin: 25px 0 0; }
+.country { border-bottom: 0 !important; }
+.country select { border: 1px solid #ccc; background: #fff; font: normal normal normal 14px/normal 'Open Sans'; }
 .chooseCategory { font: normal normal normal 14px/1.9em 'Open Sans', Arial !important; }
 .chooseCategory label { cursor: pointer; width: auto !important; float: none !important; padding: 0 !important; margin: 0 !important; }
 .itemFields { margin: 20px 0; }
