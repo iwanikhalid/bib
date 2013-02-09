@@ -14,7 +14,7 @@ http://bcoffee-projects.com/work/bringitbay/xhtml/general-content.html
 Cart Process  
 http://bcoffee-projects.com/work/bringitbay/xhtml/cart-process.html  
 
-Cart Process > Cart Review
+Cart Process > Cart Review  
 http://bcoffee-projects.com/work/bringitbay/xhtml/cart-process-checkout.html    
 
 Cart Process > Login/Register  
