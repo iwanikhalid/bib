@@ -69,6 +69,45 @@ body { font: normal normal 400 14px/normal 'Open Sans', Helvetica, sans-serif; c
 	/* Inside pages */
 	.faq h2 { font-weight: normal; cursor: pointer; margin: 10px 0; }
 	.faq blockquote { box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3; margin: 0 20px; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; background: #fff; padding: 10px 20px; display: none; font-style: normal; }
+	.main { background: #fff; padding: 10px; width: 705px; min-height: 400px; height: auto !important; height: 400px; border: 1px solid #E3E3E3; -webkit-border-radius: 8px; -moz-border-radius:8px; border-radius: 8px; -webkit-background-clip: padding-box; }
+	.notice { background: #eee; text-align: center; margin: 10px 0; padding: 5px; }
+	.yellowbox { background: #FFF9D7; border: 1px solid #E2C822; }
+	.redbox { background:#FFDAD7; border:1px solid #E2223D; }
+	.greenbox { background:#E5FFD7; border:1px solid #22E230; }
+	.bluebox { background:#D7F6FF; border:1px solid #2285E2;}
+	.blackbox { background: #000; color: #fff; text-shadow: none; padding: 3px; }	
+	.yellowtxt { color: #ffde00; }
+	.redtxt { color: #b71319; }
+	.greentxt { color: #4baf24; }
+	.sidemenu { width: 181px; margin: 0 10px 0 0; padding:0; list-style: none; }
+	.sidemenu li a { text-decoration: none; display: block; padding: 6px 10px; background: #f8f8f8;  border-bottom: 1px solid #e3e3e3; border-top: 1px solid #fff; border-left: 1px solid #e3e3e3; border-right: 1px solid #e3e3e3; }
+	.sidemenu li a:hover, .sidemenu li a.selected { text-shadow: none; color: #333; background: #ccc;  border-top: 1px solid #eee; border-bottom: 1px solid #acacac; }
+	.sidemenu li:first-child a { border: 1px solid #E3E3E3; border-bottom: 1px solid #e3e3e3; border-radius: 12px; -webkit-border-radius: 12px; -moz-border-radius:10px; -moz-border-radius-bottomleft: 0; -webkit-border-bottom-left-radius: 0; -moz-border-radius-bottomright: 0; -webkit-border-bottom-right-radius: 0; border-radius-bottomleft: 0; border-radius-bottomright: 0; }
+	.sidemenu li:last-child a { border: 1px solid #E3E3E3; border-top: 1px solid #fff; border-radius: 12px; -webkit-border-radius: 12px; -moz-border-radius:10px; -moz-border-radius-topleft: 0; -webkit-border-top-left-radius: 0; -moz-border-radius-topright: 0; -webkit-border-top-right-radius: 0; border-radius-topleft: 0; border-radius-topright: 0; }
+	.sidemenu li:first-child a:hover, .sidemenu li:first-child a.selected{ border-bottom: 1px solid #acacac; }
+	table { text-shadow: none; border-collapse: collapse; width: 100%; }
+	thead { background: #7abb62; color: #000;  }
+	thead td { font: bold 12px Arial; padding: 5px;  border: 1px solid #5d9e45; border-bottom: 2px solid #5d9e45;}
+	td, th { text-align: center;  border: 1px solid #ccc; padding: 10px; }
+	tr.alt { background: #eee; }
+	.main form { margin: 15px 0; padding: 0 10px; font: bold 12px Arial; }
+	.main form p { vertical-align: middle; width: 100%; padding: 5px 0;margin: 5px 0; border-bottom: 1px solid #eee; }
+	.main form p:last-child { border-bottom: none; }
+	.main form label { width: 45%; float: left; padding: 0 5px; margin: 0 0 0 15px; }
+	.doublecol .floatl { width: 300px; margin: 0 20px 0 0; }
+	.doublecol p { width: auto; }
+	.doublecol input { margin: 0 0 0 20px; }
+	.main .doublecol label { width: 75%; }
+	fieldset { border: 1px solid #6586be; margin: 10px 0; }
+	legend { color: #6586be; padding: 0 5px; }
+	form input, form textarea { padding: 2px; border: 1px solid #c1c1c1; }
+	form select { padding: 2px; border:none; background: #eee; margin: 0 5px 0 0; }
+	.main form input:focus { outline: none; border: 1px solid #c4d6f6; }
+	.main ul, .main ol { margin: 15px 0 15px 20px; }
+	.main li { list-style: disc outside none; width: 60%; padding: 5px 0; border-bottom: 1px solid #e5e5e5; }
+	.main ol li { list-style: decimal outside none; }
+	.main li:last-child { border-bottom: none; }
+	.main .awesome { box-shadow: none; }
 	
 #footer  { padding: 20px 0; background: url(img/footer.gif) repeat-x;  }
 	#footer ul { font-size: 12px; margin: 10px 65px 20px 30px; color: #fff; }
@@ -86,7 +125,7 @@ body { font: normal normal 400 14px/normal 'Open Sans', Helvetica, sans-serif; c
 /******** REPEATS ********************************/
 h1,h2,h3,h4,p,ul,ol,table { margin-bottom: 10px; }
 
-a { color: #db051f; text-decoration: none; }
+a { color: #32548f; text-decoration: none; }
 a:hover { color: #990000; text-decoration: underline; }
 
 .clearfix { display: inline-block; }
@@ -121,11 +160,10 @@ h6 { font-size: 0.5em; }
 
 /*************** Pagination styles */
 
-.pagiwrap { text-align: center; margin: 20px 0; }
-.pagiwrap p { color: #7a7a7a; margin: 20px 0; }
-.pagination a { padding: 2px 5px 2px 5px; margin: 2px 4px; border: 1px solid #dadada; text-decoration: none; color: #7a7a7a; background: #efefef; }
-.pagination a:hover, .pagination a:active { font-weight: bold; color: #6f8b0f; background-color: #dbdbdb; border: 1px solid #c9c9c9; }
-.pagination span.current { padding: 2px 5px 2px 5px; margin: 2px; font-weight: bold; color: #6f8b0f; background-color: #dbdbdb; border: 1px solid #c9c9c9;}	
+.pagination { width: 500px; margin: 20px auto; }
+.pagination a { padding: 2px 5px 2px 5px; margin: 2px 4px; border: 1px solid #000; text-decoration: none; color: #fff; background: #000; }
+.pagination a:hover, .pagination a:active { font-weight: bold; color: #fff; background-color: #6f8b0f; border: 1px solid #6f8b0f; }
+.pagination span.current { padding: 2px 5px 2px 5px; margin: 2px; font-weight: bold; color: #fff; background-color: #6f8b0f; border: 1px solid #6f8b0f;}	
 .pagination span.disabled { padding: 2px 5px 2px 5px; margin: 2px; color: #DDD; }
 .pagination a.less, .pagination a.more  { color: #6f8b0f; background: none; border: none; }
 html>body .pagination { padding: 0; }	
