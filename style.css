@@ -56,7 +56,7 @@ body { font: normal normal 400 14px/normal 'Open Sans', Helvetica, sans-serif; c
 	.section-title { text-transform: uppercase; }
 	.page-title { font-size: 2em; border-bottom: 1px dotted #ccc; padding: 0 0 10px; }
 	.more-link, .more-link:hover { margin: 0 0 15px; font-size: 13px; padding: 4px 10px; color: #fff; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; display: inline-block; background: #d42a31; /* Old browsers */ background: -moz-linear-gradient(top, #d42a31 0%, #ad0a11 100%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d42a31), color-stop(100%,#ad0a11)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(top, #d42a31 0%,#ad0a11 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(top, #d42a31 0%,#ad0a11 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(top, #d42a31 0%,#ad0a11 100%); /* IE10+ */ background: linear-gradient(to bottom, #d42a31 0%,#ad0a11 100%); /* W3C */ mfilter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d42a31', endColorstr='#ad0a11',GradientType=0 ); /* IE6-9 */ }
-	.deal { float: left; text-align: center; width: 160px; padding: 10px 10px 0; margin: 0 10px 30px 0; background: #fff; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;  -moz-box-shadow: 3px 3px 2px #ccc; -webkit-box-shadow: 3px 3px 2px #cc; box-shadow: 3px 3px 2px #ccc; min-height: 310px; height: auto !important; height: 310px; position: relative; }
+	.deal { float: left; text-align: center; width: 160px; padding: 10px 10px 0; margin: 0 10px 30px 0; background: #fff; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;  -moz-box-shadow: 3px 3px 2px #ccc; -webkit-box-shadow: 3px 3px 2px #ccc; box-shadow: 3px 3px 2px #ccc; min-height: 310px; height: auto !important; height: 310px; position: relative; }
 	.deal-pic { width: 152px; height: 180px; display: table-cell; vertical-align: middle; }
 	.deal p { line-height: normal !important; color: #1c5086; font-size: 13px; }
 	.deal span.price { color: #ff5400; }
@@ -68,7 +68,7 @@ body { font: normal normal 400 14px/normal 'Open Sans', Helvetica, sans-serif; c
 	
 	/* Inside pages */
 	.faq h2 { font-weight: normal; cursor: pointer; margin: 10px 0; }
-	.faq blockquote { -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; margin: 0 20px; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; background: #fff; padding: 10px 0 10px 20px; display: none; font-style: normal; }
+	.faq blockquote { box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3; margin: 0 20px; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; background: #fff; padding: 10px 20px; display: none; font-style: normal; }
 	
 #footer  { padding: 20px 0; background: url(img/footer.gif) repeat-x;  }
 	#footer ul { font-size: 12px; margin: 10px 65px 20px 30px; color: #fff; }
