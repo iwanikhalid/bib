@@ -94,15 +94,15 @@ body { font: normal normal 400 14px/normal 'Open Sans', Helvetica, sans-serif; c
 	.main form p { vertical-align: middle; width: 100%; padding: 5px 0;margin: 5px 0; border-bottom: 1px solid #eee; }
 	.main form p:last-child { border-bottom: none; }
 	.main form label { width: 45%; float: left; padding: 0 5px; margin: 0 0 0 15px; }
+	.main form input:focus { outline: none; border: 1px solid #c4d6f6; }
+	.doublecol label { width: 75%; }
 	.doublecol .floatl { width: 300px; margin: 0 20px 0 0; }
 	.doublecol p { width: auto; }
-	.doublecol input { margin: 0 0 0 20px; }
-	.main .doublecol label { width: 75%; }
+	.doublecol input { margin: 0 0 0 20px; }	
 	fieldset { border: 1px solid #6586be; margin: 10px 0; }
 	legend { color: #6586be; padding: 0 5px; }
 	form input, form textarea { padding: 2px; border: 1px solid #c1c1c1; }
-	form select { padding: 2px; border:none; background: #eee; margin: 0 5px 0 0; }
-	.main form input:focus { outline: none; border: 1px solid #c4d6f6; }
+	form select { padding: 2px; border:none; background: #eee; margin: 0 5px 0 0; }	
 	.main ul, .main ol { margin: 15px 0 15px 20px; }
 	.main li { list-style: disc outside none; width: 60%; padding: 5px 0; border-bottom: 1px solid #e5e5e5; }
 	.main ol li { list-style: decimal outside none; }
