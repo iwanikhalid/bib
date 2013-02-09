@@ -158,8 +158,8 @@ h6 { font-size: 0.5em; }
 
 /*************** Tables */
 table { text-shadow: none; border-collapse: collapse; width: 100%; }
-thead { background: #7abb62; color: #000;  }
-thead td { font: bold 12px Arial; padding: 5px;  border: 1px solid #5d9e45; border-bottom: 2px solid #5d9e45;}
+thead, tr.thead { background: #7abb62; color: #000;  }
+thead td, tr.thead td { font: bold 12px Arial; padding: 5px;  border: 1px solid #5d9e45; border-bottom: 2px solid #5d9e45;}
 td, th { text-align: center;  border: 1px solid #ccc; padding: 10px; }
 tr.alt { background: #eee; }
 
@@ -177,7 +177,18 @@ fieldset { border: 1px solid #6586be; margin: 10px 0; }
 legend { color: #6586be; padding: 0 5px; }
 form input, form textarea { padding: 2px; border: 1px solid #c1c1c1; }
 form select { padding: 2px; border:none; background: #eee; margin: 0 5px 0 0; }	
+form input[type=radio] { vertical-align: middle; }
 
+/*************** Cart Process */
+.itemAdded { margin: 25px 0 0; }
+.chooseCategory { font: normal normal normal 14px/1.9em 'Open Sans', Arial !important; }
+.chooseCategory label { cursor: pointer; width: auto !important; float: none !important; padding: 0 !important; margin: 0 !important; }
+.itemFields { margin: 20px 0; }
+.itemFields tr:nth-child(2) td,
+.itemFields tr:nth-child(4) td,
+.itemFields tr:nth-child(6) td 
+	{ border: 0; border-bottom: solid 4px #fff; }
+	
 /*************** Pagination styles */
 
 .pagination { width: 500px; margin: 20px auto; }
