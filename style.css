@@ -42,7 +42,7 @@ body { font: normal normal 400 14px/normal 'Open Sans', Helvetica, sans-serif; c
 		#banner .form-col.col2 form { padding: 15px 0 0; }
 		#banner .form-col.col2 input[type=text] { font-weight: bold; border: none; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; width: 280px; height: 20px; padding: 10px; margin: 10px 0; }
 		#banner .form-col.col2 p.selectWrap { display: inline-block; background: #fff; width: 280px; padding: 10px; margin: 10px 0;  -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; }
-		#banner .form-col.col2 select { font-weight: bold; border: none; width: 279px; }
+		#banner .form-col.col2 select { background: #fff; font-weight: bold; border: none; width: 279px; }
 		#banner .form-col.col2 input[type=text]:focus, #banner .form-col.col2 select:focus { outline: none; }
 		#banner .form-col.col2 input[type=submit]{ -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; width: 300px; padding: 10px; border: 0; font-size: 1.3em; margin: 10px 0; }
 	#banner .form-col.col3 { padding: 81px 0 0 11px; width: 299px; }
