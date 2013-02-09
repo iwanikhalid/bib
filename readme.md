@@ -20,5 +20,5 @@ http://bcoffee-projects.com/work/bringitbay/xhtml/cart-process-checkout.html
 Cart Process > Login/Register  
 http://bcoffee-projects.com/work/bringitbay/xhtml/cart-process-login.html  
 
-##WORK IN PROGRESS  
-..
+##WORK IS DONE!  
+Any feedback, just holla me :)
