@@ -68,8 +68,10 @@ body { font: normal normal 400 14px/normal 'Open Sans', Helvetica, sans-serif; c
 	
 	/* Inside pages */
 	.faq h2 { font-weight: normal; cursor: pointer; margin: 10px 0; }
-	.faq blockquote { box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3; margin: 0 20px; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; background: #fff; padding: 10px 20px; display: none; font-style: normal; }
-	.main { background: #fff; padding: 10px; width: 705px; min-height: 400px; height: auto !important; height: 400px; border: 1px solid #E3E3E3; -webkit-border-radius: 8px; -moz-border-radius:8px; border-radius: 8px; -webkit-background-clip: padding-box; }
+	.faq blockquote { display: none; }
+	blockquote { box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3; margin: 0 20px; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; background: #f4f4f4; padding: 10px 20px; font-style: normal; }
+	.layout .main { width: 95%; }
+	.main, .main.floatl { background: #fff; padding: 10px 10px 20px; width: 705px; min-height: 400px; height: auto !important; height: 400px; border: 1px solid #E3E3E3; -webkit-border-radius: 8px; -moz-border-radius:8px; border-radius: 8px; -webkit-background-clip: padding-box; }
 	.notice { background: #eee; text-align: center; margin: 10px 0; padding: 5px; }
 	.yellowbox { background: #FFF9D7; border: 1px solid #E2C822; }
 	.redbox { background:#FFDAD7; border:1px solid #E2223D; }
