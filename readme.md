@@ -13,4 +13,4 @@ http://bcoffee-projects.com/work/bringitbay/xhtml/general-content.html
 
 ##WORK IN PROGRESS  
 Cart Process  
-...
+http://bcoffee-projects.com/work/bringitbay/xhtml/cart-process.html

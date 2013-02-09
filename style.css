@@ -4,7 +4,7 @@
 ul, li { list-style: none; }
 img { border: none; }
 
-/******** STRUCTURE & SPECIFICS *****************/
+/******** STRUCTURE & FRONTPAGE *****************/
 body { font: normal normal 400 14px/normal 'Open Sans', Helvetica, sans-serif; color: #000; text-align: center; }
 
 .fullLayout { width: 100%; }
@@ -68,52 +68,7 @@ body { font: normal normal 400 14px/normal 'Open Sans', Helvetica, sans-serif; c
 	#stores img { vertical-align: middle; }
 	#testimonial .floatl { width: 475px; background: url(img/bgquote.png) no-repeat left top; }
 	#testimonial .floatl p { padding: 30px 20px 20px; }
-	
-	/* Inside pages */
-	.faq h2 { font-weight: normal; cursor: pointer; margin: 10px 0; }
-	.faq blockquote { display: none; }
-	blockquote { box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3; margin: 0 20px; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; background: #f4f4f4; padding: 10px 20px; font-style: normal; }
-	.layout .main { width: 95%; }
-	.main, .main.floatl { background: #fff; padding: 10px 10px 20px; width: 705px; min-height: 400px; height: auto !important; height: 400px; border: 1px solid #E3E3E3; -webkit-border-radius: 8px; -moz-border-radius:8px; border-radius: 8px; -webkit-background-clip: padding-box; }
-	.notice { background: #eee; text-align: center; margin: 10px 0; padding: 5px; }
-	.yellowbox { background: #FFF9D7; border: 1px solid #E2C822; }
-	.redbox { background:#FFDAD7; border:1px solid #E2223D; }
-	.greenbox { background:#E5FFD7; border:1px solid #22E230; }
-	.bluebox { background:#D7F6FF; border:1px solid #2285E2;}
-	.blackbox { background: #000; color: #fff; text-shadow: none; padding: 3px; }	
-	.yellowtxt { color: #ffde00; }
-	.redtxt { color: #b71319; }
-	.greentxt { color: #4baf24; }
-	.sidemenu { width: 181px; margin: 0 10px 0 0; padding:0; list-style: none; }
-	.sidemenu li a { text-decoration: none; display: block; padding: 6px 10px; background: #f8f8f8;  border-bottom: 1px solid #e3e3e3; border-top: 1px solid #fff; border-left: 1px solid #e3e3e3; border-right: 1px solid #e3e3e3; }
-	.sidemenu li a:hover, .sidemenu li a.selected { text-shadow: none; color: #333; background: #ccc;  border-top: 1px solid #eee; border-bottom: 1px solid #acacac; }
-	.sidemenu li:first-child a { border: 1px solid #E3E3E3; border-bottom: 1px solid #e3e3e3; border-radius: 12px; -webkit-border-radius: 12px; -moz-border-radius:10px; -moz-border-radius-bottomleft: 0; -webkit-border-bottom-left-radius: 0; -moz-border-radius-bottomright: 0; -webkit-border-bottom-right-radius: 0; border-radius-bottomleft: 0; border-radius-bottomright: 0; }
-	.sidemenu li:last-child a { border: 1px solid #E3E3E3; border-top: 1px solid #fff; border-radius: 12px; -webkit-border-radius: 12px; -moz-border-radius:10px; -moz-border-radius-topleft: 0; -webkit-border-top-left-radius: 0; -moz-border-radius-topright: 0; -webkit-border-top-right-radius: 0; border-radius-topleft: 0; border-radius-topright: 0; }
-	.sidemenu li:first-child a:hover, .sidemenu li:first-child a.selected{ border-bottom: 1px solid #acacac; }
-	table { text-shadow: none; border-collapse: collapse; width: 100%; }
-	thead { background: #7abb62; color: #000;  }
-	thead td { font: bold 12px Arial; padding: 5px;  border: 1px solid #5d9e45; border-bottom: 2px solid #5d9e45;}
-	td, th { text-align: center;  border: 1px solid #ccc; padding: 10px; }
-	tr.alt { background: #eee; }
-	.main form { margin: 15px 0; padding: 0 10px; font: bold 12px Arial; }
-	.main form p { vertical-align: middle; width: 100%; padding: 5px 0;margin: 5px 0; border-bottom: 1px solid #eee; }
-	.main form p:last-child { border-bottom: none; }
-	.main form label { width: 45%; float: left; padding: 0 5px; margin: 0 0 0 15px; }
-	.main form input:focus { outline: none; border: 1px solid #c4d6f6; }
-	.doublecol label { width: 75%; }
-	.doublecol .floatl { width: 300px; margin: 0 20px 0 0; }
-	.doublecol p { width: auto; }
-	.doublecol input { margin: 0 0 0 20px; }	
-	fieldset { border: 1px solid #6586be; margin: 10px 0; }
-	legend { color: #6586be; padding: 0 5px; }
-	form input, form textarea { padding: 2px; border: 1px solid #c1c1c1; }
-	form select { padding: 2px; border:none; background: #eee; margin: 0 5px 0 0; }	
-	.main ul, .main ol { margin: 15px 0 15px 20px; }
-	.main li { list-style: disc outside none; width: 60%; padding: 5px 0; border-bottom: 1px solid #e5e5e5; }
-	.main ol li { list-style: decimal outside none; }
-	.main li:last-child { border-bottom: none; }
-	.main .awesome { box-shadow: none; }
-	
+
 #footer  { padding: 20px 0; background: url(img/footer.gif) repeat-x;  }
 	#footer ul { font-size: 12px; margin: 10px 65px 20px 30px; color: #fff; }
 	#footer ul a { color: #fff; }
@@ -123,7 +78,34 @@ body { font: normal normal 400 14px/normal 'Open Sans', Helvetica, sans-serif; c
 		#footer ul:last-child li:first-child { padding-left: 0; background: none; }
 		#footer ul:last-child li:nth-child(3) { background-position: 0 -16px; }
 	#footer .divider { text-align: center; background: url(img/footerdivider.png) no-repeat; }
-		#footer .divider img { padding: 18px 0 0 0;  }
+		#footer .divider img { padding: 18px 0 0 0;  }	
+	
+/***************  Inside pages */
+	.faq h2 { font-weight: normal; cursor: pointer; margin: 10px 0; }
+	.faq blockquote { display: none; }
+	blockquote { box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3; margin: 10px 20px; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; background: #f4f4f4; padding: 10px 20px; font-style: normal; }
+	.layout .main { width: 95%; }
+	.main, .main.floatl { background: #fff; padding: 10px 15px 20px; width: 705px; min-height: 400px; height: auto !important; height: 400px; border: 1px solid #E3E3E3; -webkit-border-radius: 8px; -moz-border-radius:8px; border-radius: 8px; -webkit-background-clip: padding-box; }
+	.sidemenu { width: 181px; margin: 0 10px 0 0; padding:0; list-style: none; }
+	.sidemenu li a { text-decoration: none; display: block; padding: 6px 10px; background: #f8f8f8;  border-bottom: 1px solid #e3e3e3; border-top: 1px solid #fff; border-left: 1px solid #e3e3e3; border-right: 1px solid #e3e3e3; }
+	.sidemenu li a:hover, .sidemenu li a.selected { text-shadow: none; color: #333; background: #ccc;  border-top: 1px solid #eee; border-bottom: 1px solid #acacac; }
+	.sidemenu li:first-child a { border: 1px solid #E3E3E3; border-bottom: 1px solid #e3e3e3; border-radius: 12px; -webkit-border-radius: 12px; -moz-border-radius:10px; -moz-border-radius-bottomleft: 0; -webkit-border-bottom-left-radius: 0; -moz-border-radius-bottomright: 0; -webkit-border-bottom-right-radius: 0; border-radius-bottomleft: 0; border-radius-bottomright: 0; }
+	.sidemenu li:last-child a { border: 1px solid #E3E3E3; border-top: 1px solid #fff; border-radius: 12px; -webkit-border-radius: 12px; -moz-border-radius:10px; -moz-border-radius-topleft: 0; -webkit-border-top-left-radius: 0; -moz-border-radius-topright: 0; -webkit-border-top-right-radius: 0; border-radius-topleft: 0; border-radius-topright: 0; }
+	.sidemenu li:first-child a:hover, .sidemenu li:first-child a.selected{ border-bottom: 1px solid #acacac; }
+	.main ul, .main ol { margin: 15px 0 15px 20px; }
+	.main li { list-style: disc outside none; width: 60%; padding: 5px 0; border-bottom: 1px solid #e5e5e5; }
+	.main ol li { list-style: decimal outside none; }
+	.main li:last-child { border-bottom: none; }
+	.steps-navi { position: relative; margin: 0 30px 30px 0; width: 270px; min-height: 41px; height: auto !important; height: 41px; background: url(img/steps-navi-bg.png) no-repeat; }
+		.steps-navi li { position: absolute; text-align: center; font-size: 12px; padding: 46px 0 0; display: inline-block; }	
+		.steps-navi li { left: -15px; }
+		.steps-navi li + li { left: 85px; }
+		.steps-navi li + li + li { left: 190px;  }
+		.steps-navi li b { top: 10px; position: absolute; display: none; background: url(img/steps-navi-select.png) no-repeat; width: 21px; height: 21px; }
+		.steps-navi li.active { font-weight: bold; }
+		.steps-navi li.active b { display: inline-block; left: 25px; }
+		.steps-navi li + li.active b { display: inline-block; left: 26px; }
+		.steps-navi li + li + li.active b { display: inline-block; left: 33px; }
 		
 /* style, variant, weight, size, line-height, family */
 
@@ -163,6 +145,39 @@ h4 { font-size: 0.9em; }
 h5 { font-size: 0.7em; }
 h6 { font-size: 0.5em; }
 
+/*************** Text and Boxes */
+.notice { background: #eee; text-align: center; margin: 10px 0; padding: 5px; }
+.yellowbox { background: #FFF9D7; border: 1px solid #E2C822; }
+.redbox { background:#FFDAD7; border:1px solid #E2223D; }
+.greenbox { background:#E5FFD7; border:1px solid #22E230; }
+.bluebox { background:#D7F6FF; border:1px solid #2285E2;}
+.blackbox { background: #000; color: #fff; text-shadow: none; padding: 3px; }	
+.yellowtxt { color: #ffde00; }
+.redtxt { color: #b71319; }
+.greentxt { color: #4baf24; }
+
+/*************** Tables */
+table { text-shadow: none; border-collapse: collapse; width: 100%; }
+thead { background: #7abb62; color: #000;  }
+thead td { font: bold 12px Arial; padding: 5px;  border: 1px solid #5d9e45; border-bottom: 2px solid #5d9e45;}
+td, th { text-align: center;  border: 1px solid #ccc; padding: 10px; }
+tr.alt { background: #eee; }
+
+/*************** Forms */
+.main form { margin: 15px 0; padding: 0 10px; font: bold 12px Arial; }
+.main form p { vertical-align: middle; width: 100%; padding: 5px 0;margin: 5px 0; border-bottom: 1px solid #eee; }
+.main form p:last-child { border-bottom: none; }
+.main form label { width: 45%; float: left; padding: 0 5px; margin: 0 0 0 15px; }
+.main form input:focus { outline: none; border: 1px solid #c4d6f6; }
+.doublecol label { width: 75%; }
+.doublecol .floatl { width: 300px; margin: 0 20px 0 0; }
+.doublecol p { width: auto; }
+.doublecol input { margin: 0 0 0 20px; }	
+fieldset { border: 1px solid #6586be; margin: 10px 0; }
+legend { color: #6586be; padding: 0 5px; }
+form input, form textarea { padding: 2px; border: 1px solid #c1c1c1; }
+form select { padding: 2px; border:none; background: #eee; margin: 0 5px 0 0; }	
+
 /*************** Pagination styles */
 
 .pagination { width: 500px; margin: 20px auto; }
@@ -174,43 +189,14 @@ h6 { font-size: 0.5em; }
 html>body .pagination { padding: 0; }	
 
 /*************** Menu */
-
-.menu, .menu ul li {
-}
-
-.menu ul {
-	width: 11em;
-}
-
-.menu a {
-	text-decoration: none;
-	color: #fff;
-	padding: .4em 3.2em;
-	margin: 0 1.4em 0 0;
-	display: block;
-	position: relative;
-	background: #231f20; 
-	-webkit-border-top-left-radius: 10px;-webkit-border-top-right-radius: 10px;-moz-border-radius-topleft: 10px;-moz-border-radius-topright: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px;
-}
-
+.menu, .menu ul li { }
+.menu ul { width: 11em; }
+.menu a { text-decoration: none; color: #fff; padding: .4em 3.2em; margin: 0 1.4em 0 0; display: block; position: relative; background: #231f20;  -webkit-border-top-left-radius: 10px;-webkit-border-top-right-radius: 10px;-moz-border-radius-topleft: 10px;-moz-border-radius-topright: 10px;border-top-left-radius: 10px;border-top-right-radius: 10px; }
 .menu li.active a { background: #7abb62; color: #000; }
-
-.menu a:hover, .menu li:hover>a {
-	background: #7abb62;
-}
-
-.menu li li {	/* create borders around each item */
-	border: 1px solid #ccc;
-}
-.menu ul>li + li {	/* and remove the top border on all but first item in the list */
-	border-top: 0;
-}
-
-.menu li li:hover>ul {	/* inset 2nd+ submenus, to show off overlapping */
-	top: 5px;
-	left: 90%;
-}
-
+.menu a:hover, .menu li:hover>a { background: #7abb62; }
+.menu li li {	/* create borders around each item */ border: 1px solid #ccc; }
+.menu ul>li + li {	/* and remove the top border on all but first item in the list */ border-top: 0; }
+.menu li li:hover>ul {	/* inset 2nd+ submenus, to show off overlapping */ top: 5px; left: 90%; }
 /* special colouring for "Main menu:", and for "xx submenu" items in ADxMenu
 	placed here to clarify the terminology I use when referencing submenus in posts */
 .menu>li:first-child>a, .menu li + li + li li:first-child>a { }
@@ -221,7 +207,8 @@ html>body .pagination { padding: 0; }
 }
 /* End Fix */
 
-/************* BUTTONS ****************/
+/*************** Awesome Buttons */
+.main .awesome { box-shadow: none; }
 .awesome, .awesome:visited {
 	background: #222 url(alert-overlay.png) repeat-x; 
 	display: inline-block; 
