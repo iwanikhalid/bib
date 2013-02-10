@@ -96,16 +96,16 @@ body { font: normal normal 400 14px/normal 'Open Sans', Helvetica, sans-serif; c
 	.main li { list-style: disc outside none; width: 60%; padding: 5px 0; border-bottom: 1px solid #e5e5e5; }
 	.main ol li { list-style: decimal outside none; }
 	.main li:last-child { border-bottom: none; }
-	.steps-navi { position: relative; margin: 0 30px 30px 0; width: 270px; min-height: 41px; height: auto !important; height: 41px; background: url(img/steps-navi-bg.png) no-repeat; }
+	.steps-navi { position: relative; margin: 0 30px 50px 0; width: 320px; min-height: 41px; height: auto !important; height: 41px; background: url(img/steps-navi-bg.png) no-repeat; }
 		.steps-navi li { position: absolute; text-align: center; font-size: 12px; padding: 46px 0 0; display: inline-block; }	
 		.steps-navi li { left: -15px; }
-		.steps-navi li + li { left: 85px; }
-		.steps-navi li + li + li { left: 190px;  }
+		.steps-navi li + li { left: 105px; }
+		.steps-navi li + li + li { left: 222px; width: 150px; }
 		.steps-navi li b { top: 10px; position: absolute; display: none; background: url(img/steps-navi-select.png) no-repeat; width: 21px; height: 21px; }
 		.steps-navi li.active { font-weight: bold; }
 		.steps-navi li.active b { display: inline-block; left: 25px; }
-		.steps-navi li + li.active b { display: inline-block; left: 26px; }
-		.steps-navi li + li + li.active b { display: inline-block; left: 33px; }
+		.steps-navi li + li.active b { display: inline-block; left: 47px; }
+		.steps-navi li + li + li.active b { display: inline-block; left: 67px; }
 		
 /* style, variant, weight, size, line-height, family */
 
