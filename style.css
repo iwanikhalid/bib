@@ -40,7 +40,7 @@ body { font: normal normal 400 14px/normal 'Open Sans', Helvetica, sans-serif; c
 		#banner .form-col.col2 h1, #banner .form-col.col2 h3 { font-weight: normal; }
 		#banner .form-col.col2 h1 { font-size: 3em; font-weight: bold; }
 		#banner .form-col.col2 form { padding: 15px 0 0; }
-		#banner .form-col.col2 input[type=text] { font-weight: bold; border: none; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; width: 280px; height: 20px; padding: 10px; margin: 10px 0; }
+		#banner .form-col.col2 input[type=text]  { font-weight: bold; border: none; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; width: 280px; height: 20px; padding: 10px; margin: 10px 0; }
 		#banner .form-col.col2 p.selectWrap { display: inline-block; background: #fff; width: 280px; padding: 10px; margin: 10px 0;  -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; }
 		#banner .form-col.col2 select { background: #fff; font-weight: bold; border: none; width: 279px; }
 		#banner .form-col.col2 input[type=text]:focus, #banner .form-col.col2 select:focus { outline: none; }
@@ -178,7 +178,12 @@ legend { color: #6586be; padding: 0 5px; }
 form input, form textarea { padding: 2px; border: 1px solid #c1c1c1; }
 form select { padding: 2px; border:none; background: #eee; margin: 0 5px 0 0; }	
 form input[type=radio] { vertical-align: middle; }
-
+form.externalForm { margin: 15px 0; padding: 0 10px; font: bold 14px 'Open Sans', Arial; }
+form.externalForm label { width: 25%; }
+form.externalForm p { border: 0; }
+form.externalForm input[type=text] { height: 15px; width: 180px; -moz-box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4); -webkit-box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4); box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4); padding: 5px; border: 1px solid #ccc; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; }
+form.externalForm textarea { -moz-box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4); -webkit-box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4); box-shadow: 0 1px #FFFFFF inset, 0 1px 3px rgba(34, 25, 25, 0.4); padding: 5px; border: 1px solid #ccc; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;  } 
+ 
 /*************** Cart Process */
 .itemAdded { margin: 25px 0 0; }
 .country { border-bottom: 0 !important; }
