@@ -14,7 +14,7 @@ body { font: normal normal 400 14px/normal 'Open Sans', Helvetica, sans-serif; c
 	.callus { color: #ccc; margin: 0 0 10px; }
 	.callus h2 { padding: 0 0 0 32px; background: url(img/phone.png) no-repeat; }
 	.login { font-size: 16px; }
-	.logo a { display: block; text-indent: -9999px; background: url(img/logo.gif) no-repeat; width: 306px; height: 103px; }
+	.logo a { display: block; text-indent: -9999px; background: url(img/logos/logo.gif) no-repeat; width: 306px; height: 103px; }
 	.cartSnip { text-align: center; width: 200px; padding: 10px; background: #e9e9e9; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; }
 	.cartSnip a { padding-left: 20px; background: url(img/icons.png) no-repeat; margin: 10px 0; color: #919194; }
 	.cartSnip a.account { background-position: 0 -32px; }
