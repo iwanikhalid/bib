@@ -96,7 +96,6 @@ body { font: normal normal 400 14px/normal 'Open Sans', Helvetica, sans-serif; c
 	.main ul, .main ol { margin: 15px 0 15px 20px; }
 	.main li { list-style: disc outside none; width: 60%; padding: 5px 0; border-bottom: 1px solid #e5e5e5; }
 	.main ol li { list-style: decimal outside none; }
-	.main li:last-child { border-bottom: none; }
 	.steps-navi { position: relative; margin: 0 30px 50px 0; width: 320px; min-height: 41px; height: auto !important; height: 41px; background: url(img/steps-navi-bg.png) no-repeat; }
 		.steps-navi li { position: absolute; text-align: center; font-size: 12px; padding: 46px 0 0; display: inline-block; }	
 		.steps-navi li { left: -15px; }
@@ -107,7 +106,9 @@ body { font: normal normal 400 14px/normal 'Open Sans', Helvetica, sans-serif; c
 		.steps-navi li.active b { display: inline-block; left: 25px; }
 		.steps-navi li + li.active b { display: inline-block; left: 47px; }
 		.steps-navi li + li + li.active b { display: inline-block; left: 67px; }
-		
+	ul.dashboardSummary li { font-weight: bold; line-height: 1.8em; text-align: center; margin: 0 10px 0 0; background: #f4f4f4; -webkit-border-radius: 7px; -moz-border-radius: 7px; border-radius: 7px; width: 30%; list-style: none;  display: inline-block; -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; }	
+		ul.dashboardSummary li  h3 { margin: 0; font-size: 1.4em;  }
+		ul.dashboardSummary p { margin: 0; }
 /* style, variant, weight, size, line-height, family */
 
 /******** REPEATS ********************************/
@@ -155,6 +156,7 @@ h6 { font-size: 0.5em; }
 .blackbox { background: #000; color: #fff; text-shadow: none; padding: 3px; }	
 .yellowtxt { color: #ffde00; }
 .redtxt { color: #b71319; }
+.bluetxt { color: #6e95c4; }
 .greentxt { color: #4baf24; }
 
 /*************** Tables */
